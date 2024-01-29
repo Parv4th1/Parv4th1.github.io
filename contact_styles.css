@@ -1,0 +1,163 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top
+{
+    color: #fff;
+    background-color: #5995da;
+    display: flex;
+    padding: 20px 0;
+}
+body
+{
+    font-size: 18px;
+    font-family: 'Times New Roman', 'Garamond', serif;
+    color: #5D6063;
+    display:flex;
+    flex-direction: column;
+    background-color: #D6E9FE;
+}
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    color: #5995da;
+    font-size: 2em;
+    border-bottom: 2px solid #5995da;
+    margin-bottom: 10px;
+}
+h2
+{
+    width: 100%;  
+    padding-bottom: 5px;  
+    color:#5D6063
+}
+.message-form
+{
+    color: #5d605d;
+    background-color: #EAEDF0;
+    font-size: 16px;
+    line-height: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form-header
+{
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    margin: 30px 0;
+    padding: 40px;
+}
+.message
+{
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 2px;
+    width: 80%;
+    padding: 40px;
+    margin: 0 0 30px 0;
+}
+.form-row 
+{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-row label 
+{
+    margin-bottom: 15px;
+}
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid 
+{
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
+.form-row textarea 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+  
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+  
+.form-row .instructions 
+{
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form-row button 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #5995DA;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  
+.form-row button:hover 
+{
+    background-color: #76AEED;
+}
+  
+.form-row button:active 
+{
+    background-color: #407FC7;
+}
+p
+{
+    line-height: 1.5;
+}
+footer
+{
+    background-color: #5995da;
+    color: #fff;
+    display: flex;
+    padding: 5px 0;
+    flex-direction: column;
+}
+aside
+{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

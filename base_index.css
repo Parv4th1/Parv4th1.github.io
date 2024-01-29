@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 18px;
+    font-family: 'Times New Roman', 'Garamond', serif;
+    color: #5D6063;
+    display:flex;
+    flex-direction: column;
+    background-color: #D6E9FE;
+    height: 100%;
+    width: 100%;
+}
+.banner-text 
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} 
+a:link,
+a:visited
+{
+    color: #5D6063;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+figure
+{
+    display: flex;
+    flex-direction: column;
+}
+/*img
+{
+    border-radius: 20%;
+    size: 10%
+}*/
+figcaption
+{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+h2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.navigation
+{
+    align-self: center;
+    height: 100%;
+    width: 20%;
+    background-color: #eeeeee;
+}
+nav
+{
+    position: relative;
+    color: #5995da;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D6E9FE;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.navigation-menu
+{
+    margin-top: 20px;
+}
+.navigation-menu>li
+{
+    display: block;
+    margin-bottom: 50px;
+}
+.navigation-menu > li:last-of-type
+{
+    margin-bottom: 50;
+}
+.dropdown-menu:hover .about-menu
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #b2d6ff;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 10px;
+
+    position: relative;
+}
+.about-menu
+{
+    display: none;
+}
+.about-menu li
+{
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+
+    padding: 0 10px 10px 10px;
+    margin: 10px;
+}
+.about-menu li:last-of-type
+{
+    border-bottom: none;
+}
+.dropdown-menu
+{
+    position: relative;
+}
+.dropdown-menu > span
+{
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+header
+{
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    color: #b2d6ff;
+    display: flex;
+    justify-content: space-around;
+    background-color: #5995da;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1
+{
+    padding-bottom: 10px;
+}
+header p
+{
+    padding-bottom: 10px;
+}
+footer
+{
+    background-color: #5995da;
+    color: #fff;
+    display: flex;
+    padding: 5px 0;
+    flex-direction: column;
+}
+.about-portfolio
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #b2d6ff ;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}

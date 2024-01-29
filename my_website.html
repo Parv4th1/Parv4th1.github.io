@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Personalised Website</title>
+        <link rel="stylesheet" href="personalised_site_styles.css" type='text/CSS'/>
+        <!-- Embedded stylesheet -->
+        <style>
+            p
+            {
+                color:#5D6063;
+            }
+            h1,h2,h3
+            {
+                text-align: center;
+                font-family: 'Times New Roman', 'Garamond', serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top"></div>
+        <header>
+            <div class="profile">
+                <h1 id="top">Hi! I'm Parvathi Annamalai</h1>
+                <figure>
+                    <!--Inline CSS-->
+                    <img src='pfp.jpeg' alt='A picture of me' style="border-radius: 20%; size: 10%; align-self: center;"/>
+                    <figcaption>Quietly confident | Eager to learn</figcaption>
+                </figure>
+            </div>
+            <nav>
+                <ul class='navigation-menu'>
+                    <li><a href='../personalised_website/index.html'>Home</a></li>
+                    <li class='dropdown-menu'><span><a href='#about'>About &#9662;</a></span>
+                        <ul class='about-menu'>
+                            <li><a href='#hobbies'>Hobbies</a></li>
+                            <li><a href='#skills'>Skills</a></li>
+                            <li><a href='#education'>Education</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='#contact-me'>Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <a href="#top"><img src="top.png" alt="top"/></a>
+            <a href="index.html" target="_parent"><figure class="home-icon"><img src="home_icon.png" alt="Go Home"/><figcaption class="home-text">HOME</figcaption></figure></a>
+        </aside>
+        <article>
+            <h2 id="about">About Me</h2>
+            <p align="center">I'm Parvathi Annamalai, a passionate 2nd-year student pursuing a B.Tech in Computer Science with a specialization in Information Security. <br/><br/></p>
+            <section class="hobby">
+                <h3 id="hobbies">Hobbies</h3>
+                <p> I enjoy reading, dancing, solving puzzles and coding.<br/></p>
+                <div class='hobby-images'>
+                    <figure class='column1'><img class = "books" src="jaredd-craig-HH4WBGNyltc-unsplash.jpg" alt="image of books"/> </figure>
+                    <figure class='column2'><img class="dance" src="dance_pic.JPG" alt="Parvathi in bharatanatyam costume"/> </figure>
+                    <figure class='column3'><img class="puzzle" src="img_puzzle.png" alt="image of puzzle pieces"/> </figure>
+                </div>
+                  
+            </section>
+            <section class="skill">
+                <h3 id="skills">Skills</h3>
+                <section class="programming-lang">
+                    <h4>Programming </h4>
+                    <dl>
+                        <dt>C, C++</dt>
+                        <dd>Proficient</dd>
+                        <dt>Python</dt>
+                        <dd>Intermediate</dd>
+                        <dt>Java</dt>
+                        <dd>Intermediate</dd>
+                        <dt>HTML, CSS</dt>
+                        <dd>Beginner</dd>
+                    </dl>
+                </section>
+                <section class="communication">
+                    <h4>Communication</h4>
+                    <table border="1" bgcolor="white">
+                    <caption>Languages</caption>
+                    <thead>
+                        <tr>
+                        <th>Name of the Language</th>
+                        <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>English</td>
+                        <td>Fluent</td>
+                        </tr>
+                        <tr>
+                        <td>Tamil</td>
+                        <td>Fluent</td>
+                        </tr>
+                        <tr>
+                        <td>Hindi</td>
+                        <td>Fluent</td>
+                        </tr>
+                        <tr>
+                        <td>Sanskrit</td>
+                        <td>Intermediate</td>
+                        </tr>
+                        <tr>
+                        <td>Kannada</td>
+                        <td>Beginner</td>
+                        </tr>
+                        <tr>
+                        <td>Spanish</td>
+                        <td>Beginner</td>
+                        </tr>
+                    </tbody>
+                    <tfooter>
+                        <tr>
+                        <th>Total Number of languages</th>
+                        <th>6</th>
+                        </tr>
+                    </tfooter>
+                    </table>
+                </section>
+            </section>
+            <section class="ed">
+                <h3 id="education">Education</h3>
+                <p>
+                    <pre style="font-family: 'Times New Roman', Times, serif;">
+
+                        B TECH COMPUTER SCIENCE WITH SPECIALISATION IN INFORMATION SECURITY 	2022-2026
+                        Current Semester: 4th 
+                        CGPA 9.60 (for the first 3 semesters)
+                        
+                        CBSE CLASS XII	         2022
+                        Score - 94 % 
+                        100% in Computer Science 
+                        All subjects scored above 90%
+
+                        CBSE CLASS X             2020
+                        Score – 95.6 % 
+                        100% in Sanskrit & 98% in Mathematics
+                        All subjects scored above 90%
+                    </pre>                    
+                </p>
+            </section>
+        </article>
+        <section class="contact">
+            <h2 id="contact-me">Contact Me</h2>
+            <p>Email me at <a href="mailto:parvathi.annamalai2022@vitstudent.ac.in">parvathi.annamalai2022@vitstudent.ac.in</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/parvathi-annamalai" target="_blank">LinkedIn</a></p>
+            <p>Find me on <a href="https://github.com/Parv4th1/" target="_blank">GitHub</a> </p>
+            <p>Or</p>
+            <section class="message-form">
+                <header class="form-header">
+                    <h3>Message</h3>
+                    <p><em>Want to leave a message? Fill out this form</em></p>
+                </header>
+                <form action='' method='get' class='message'>
+                    <div class="form row">
+                        <label for="full-name">Name</label>
+                        <input id="full-name" name="full-name" type="text"/>
+                    </div>
+                    <div class='form-row'>
+                        <label for='email'>Email</label>
+                        <input id='email' name='email' type='email' placeholder='example@example.com'/>
+                    </div>
+                    <div class='form-row'>
+                        <label for='abstract'>Abstract</label>
+                        <textarea id='abstract' name='abstract'></textarea>
+                        <div class='instructions'>Leave a message in 500 words or less</div>
+                    </div>
+                    <div class='form-row'>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+        <footer>
+            <p style="color: #fff;">&copy; Made by Parvathi Annamalai, January 2024</p>
+            <p style="font-size: 0.5em;"><a target="_blank" href="https://icons8.com/icon/86527/home">Home</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        </footer>
+    </body> 
+</html>

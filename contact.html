@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="contact_styles.css" type="text/CSS"/>
+        <style>
+            body 
+            {
+              background-image: url('banner.jpg');
+              background-size: 100%;
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="top"></div>
+        <aside>
+            <a href="index.html" target="_parent"><figure class="home-icon"><img src="home_icon.png" alt="Go Home"/><figcaption class="home-text">HOME</figcaption></figure></a>
+        </aside>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <p>Email me at <a href="mailto:parvathi.annamalai2022@vitstudent.ac.in">parvathi.annamalai2022@vitstudent.ac.in</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/parvathi-annamalai" target="_blank">LinkedIn</a></p>
+            <p>Find me on <a href="https://github.com/Parv4th1/" target="_blank">GitHub</a> </p>
+            <p>Or</p>
+            <section class="message-form">
+                <header class="form-header">
+                    <h2>Message</h2>
+                    <p><em>Want to leave a message? Fill out this form</em></p>
+                </header>
+                <form action='' method='get' class='message'>
+                    <div class="form row">
+                        <label for="full-name">Name</label>
+                        <input id="full-name" name="full-name" type="text"/>
+                    </div>
+                    <div class='form-row'>
+                        <label for='email'>Email</label>
+                        <input id='email' name='email' type='email' placeholder='example@example.com'/>
+                    </div>
+                    <div class='form-row'>
+                        <label for='abstract'>Abstract</label>
+                        <textarea id='abstract' name='abstract'></textarea>
+                        <div class='instructions'>Leave a message in 500 words or less</div>
+                    </div>
+                    <div class='form-row'>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+        <footer>
+            <p style="color: #fff;">&copy; Made by Parvathi Annamalai, January 2024</p>
+        </footer>
+    </body>
+</html>
